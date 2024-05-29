@@ -69,7 +69,7 @@
 
 
 
-### 特徴量の重要度
+### 線形回帰モデルを回帰係数による比較
 
 ここでは、線形回帰による予測モデルの回帰係数を比較し、重要度の比較を行う。
 
@@ -83,10 +83,22 @@
 
 - `アルコール`と`密度`が白ワインの品質に最も影響を与える重要な特徴です。
 
-## 結論
+### 線形回帰モデルをPFIによる比較
 
-分析の結果、アルコール含有量と酸度レベルがワインの品質に大きな影響を与えることが判明しました。
-ランダムフォレストモデルは、赤ワインと白ワインの両方で強力な予測性能を示しました。
+#### 赤ワインの特徴量重要度
+![Red Wine Feature Importance](./result/LRM_PFI_red_wine_feature_importance.png)
+
+#### 白ワインの特徴量重要度
+![White Wine Feature Importance](./result/LRM_PFI_white_wine_feature_importance.png)
+
+### 線形回帰モデルをPD,ICEによる比較
+
+#### 赤ワインの特徴量重要度
+![Red Wine Feature Importance](./result/LRM_red_wine_pd_ice_plots.png)
+
+#### 白ワインの特徴量重要度
+![White Wine Feature Importance](./result/LRM_white_wine_pd_ice_plots.png)
+
 
 ## 必要なパッケージ
 
