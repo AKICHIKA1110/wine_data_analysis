@@ -130,6 +130,6 @@ pip install -r requirements.txt
 
 ## 参考文献
 <img src="./images/book1.png" alt="no image" width="300"/>
-- <出版社>　技術評論社
-- <著者>　森下光之助
+- <出版社>技術評論社
+- <著者>森下光之助
 
