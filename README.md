@@ -113,7 +113,7 @@
 ![Red Wine Feature Importance](./result/RFM_Red_wine_partial_dependence_plots.png)
 
 #### 白ワインの特徴量重要度
-![White Wine Feature Importance](./result/RFM_PFI_white_wine_partial_dependence_plots.png)
+![White Wine Feature Importance](./result/RFM_PFI_White_wine_partial_dependence_plots.png)
 
 ## 必要なパッケージ
 
