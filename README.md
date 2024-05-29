@@ -15,18 +15,18 @@
 
 このデータセットには、特徴量は10種です。
 
-1.fixed acidity - 固定酸
-2.volatile acidity - 揮発酸
-3.citric acid - クエン酸
-4.residual sugar - 残糖
-5.chlorides - 塩化物
-6.free sulfur dioxide - 遊離亜硫酸
-7.total sulfur dioxide - 総亜硫酸
-8.density - 密度
-9.pH - pH
-10.sulphates - 硫酸塩
-11.alcohol - アルコール度数
-
+1. fixed acidity - 固定酸
+2. volatile acidity - 揮発酸
+3. citric acid - クエン酸
+4. residual sugar - 残糖
+5. chlorides - 塩化物
+6. free sulfur dioxide - 遊離亜硫酸
+7. total sulfur dioxide - 総亜硫酸
+8. density - 密度
+9. pH - pH
+10. sulphates - 硫酸塩
+11. alcohol - アルコール度数
+    
 ## 分析と結果
 
 ### データの分布
