@@ -120,10 +120,39 @@
 #### 白ワインの特徴量重要度
 ![White Wine Feature Importance](./result/RFM_White_wine_partial_dependence_plots.png)
 中心の青い太線がPDで周囲にある細い赤線がICEになります。各インスタンスの特徴量の変化が予測値に及ぼす影響を確認している。平均的な傾向から異なる動きを見せるインスタンスも存在している。
-## 必要なパッケージ
 
-分析を実行するには、以下のパッケージをインストールしてください。
+### 1. 仮想環境の作成
+環境名 `myenv`は例として挙げています。
+```bash 
+python -m venv myenv
+```
+### 2. 仮想環境のactivate
+Windows:
+```bash
+myenv\Scripts\activate
+```
+macOS and Linux:
+```bash
+source myenv/bin/activate
+```
+### 3. ライブラリのインストール
+```bash
+pip install -r requirements.txt
+```
+## 主な使用ライブラリ
 
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- scikit-learn
+- Juypter
+
+## 筆者の環境
+
+- Python 3.9.13 (3.10で仮想環境の作成に問題があるため非推奨)
+- Windows 11
+- Vscode
 ```bash
 pip install -r requirements.txt
 ```
