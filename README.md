@@ -99,6 +99,21 @@
 #### 白ワインの特徴量重要度
 ![White Wine Feature Importance](./result/LRM_white_wine_pd_ice_plots.png)
 
+### ランダムフォレストモデルをPFIによる比較
+
+#### 赤ワインの特徴量重要度
+![Red Wine Feature Importance](./result/RFM_PFI_red_wine_feature_importance.png)
+
+#### 白ワインの特徴量重要度
+![White Wine Feature Importance](./result/RFM_PFI_white_wine_feature_importance.png)
+
+### ランダムフォレストモデルをPD,ICEによる比較
+
+#### 赤ワインの特徴量重要度
+![Red Wine Feature Importance](./result/RFM_Red_wine_partial_dependence_plots.png)
+
+#### 白ワインの特徴量重要度
+![White Wine Feature Importance](./result/RFM_PFI_white_wine_partial_dependence_plots.png)
 
 ## 必要なパッケージ
 
