@@ -153,9 +153,6 @@ pip install -r requirements.txt
 - Python 3.9.13 (3.10で仮想環境の作成に問題があるため非推奨)
 - Windows 11
 - Vscode
-```bash
-pip install -r requirements.txt
-```
 
 ## 参考文献
 <img src="./images/book1.png" alt="no image" width="300"/>
