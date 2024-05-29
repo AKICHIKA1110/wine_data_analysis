@@ -21,25 +21,15 @@
 - 品質評価は3から8の6段階評価
 - 大多数の赤ワインは5から6の間で評価されているため、データの偏りがある。
 
+![Red Wine scatter](./images/red_wine_scatter_plot.png)
+
 #### 白ワインの品質分布
 ![White Wine Quality Distribution](./images/white_wine_quality_distribution.png)
 
 - 品質評価は3から9までの範囲です。
 - 大多数の白ワインは5から6の間で評価されており、特に6の評価が多いです。
 
-### 特徴量の相関
-
-#### 赤ワインの特徴量相関
-![Red Wine Feature Correlation](./images/red_wine_feature_correlation.png)
-
-- `固定酸度`と`クエン酸`の間に強い正の相関があります。
-- `品質`と`揮発性酸度`の間に中程度の負の相関があります。
-
-#### 白ワインの特徴量相関
-![White Wine Feature Correlation](./images/white_wine_feature_correlation.png)
-
-- `残糖`と`密度`の間に強い正の相関があります。
-- `品質`と`アルコール`の間に中程度の正の相関があります。
+![Red Wine scatter](./images/white_wine_scatter_plot.png)
 
 ### 機械学習モデル
 
@@ -61,12 +51,12 @@
 ### 特徴量の重要度
 
 #### 赤ワインの特徴量重要度
-![Red Wine Feature Importance](./result/RF_red_wine_feature_importance.png)
+![Red Wine Feature Importance](./result/red_wine_regression_coefficients.png)
 
 - `アルコール`と`揮発性酸度`が赤ワインの品質に最も影響を与える重要な特徴です。
 
 #### 白ワインの特徴量重要度
-![White Wine Feature Importance](./result/RF_white_wine_feature_importance.png)
+![White Wine Feature Importance](./result/white_wine_regression_coefficients.png)
 
 - `アルコール`と`密度`が白ワインの品質に最も影響を与える重要な特徴です。
 
