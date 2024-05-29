@@ -114,7 +114,7 @@
 
 #### 白ワインの特徴量重要度
 ![White Wine Feature Importance](./result/RFM_PFI_White_wine_partial_dependence_plots.png)
-
+中心の青い太線がPDで周囲にある細い赤線がICEになります。各インスタンスの特徴量の変化が予測値に及ぼす影響を確認している。平均的な傾向から異なる動きを見せるインスタンスも存在している。
 ## 必要なパッケージ
 
 分析を実行するには、以下のパッケージをインストールしてください。
