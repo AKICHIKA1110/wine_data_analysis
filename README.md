@@ -79,7 +79,7 @@
 #### 白ワインの特徴量重要度
 ![White Wine Feature Importance](./result/white_wine_regression_coefficients.png)
 
-- `アルコール`と`密度`が白ワインの品質に最も影響を与える重要な特徴です。
+- `アルコール`, `密度`, `残糖`, `揮発性酸度` が白ワインの品質に最も影響を与える重要な特徴です。
 
 ### 線形回帰モデルをPFIによる比較
 
