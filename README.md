@@ -12,13 +12,13 @@
 - `WineQuality-WhiteWine.csv`: 白ワインのサンプル数　4898
 
 ## プログラムの説明
--`images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一時分析
--`model`:　`DNN_model.ipynb`で作成した予測モデル
--`result`: 各プログラムの結果
-- `LRM_wine.ipynb`: 線形回帰モデルの係数比較, PFI, PD, ICEも含む
-- `PEI_wine.ipynb`:　線形回帰モデルのPFI
-- `RFM_analysis.ipynb`:　ランダムフォレストの構築とPD, ICEの図示
-- `DNN_model.ipynb`:　深層学習による回帰モデル, 分類モデルの構築
+-`images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一時分析  
+-`model`:　`DNN_model.ipynb`で作成した予測モデル  
+-`result`: 各プログラムの結果  
+- `LRM_wine.ipynb`: 線形回帰モデルの係数比較, PFI, PD, ICEも含む  
+- `PEI_wine.ipynb`:　線形回帰モデルのPFI  
+- `RFM_analysis.ipynb`:　ランダムフォレストの構築とPD, ICEの図示  
+- `DNN_model.ipynb`:　深層学習による回帰モデル, 分類モデルの構築  
 
 ### 特徴量の説明
 
