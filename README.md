@@ -5,19 +5,19 @@
 このリポジトリには、赤ワインと白ワインの品質データセットに関する分析とグラフ化を行っています。本プロジェクトの目標は、機械学習を用いた予測モデルからワインの品質に影響を与える要因を理解することです。
 
 ## プログラムの説明
-- `images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一次分析  
-- `model`:　`DNN_model.ipynb`で作成した予測モデル  
-- `result`: 各プログラムの結果  
-- `LRM_wine.ipynb`: 線形回帰モデルの係数比較, PFI, PD, ICEも含む  
-- `PEI_wine.ipynb`:　線形回帰モデルのPFI  
-- `RFM_analysis.ipynb`:　ランダムフォレストの構築とPD, ICEの図示  
-- `DNN_model.ipynb`:　深層学習による回帰モデル, 分類モデルの構築
+- `images`:`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一次分析  
+- `model`:`DNN_model.ipynb`で作成した予測モデル  
+- `result`:各プログラムの結果  
+- `LRM_wine.ipynb`:線形回帰モデルの係数比較, PFI, PD, ICEも含む  
+- `PEI_wine.ipynb`:線形回帰モデルのPFI  
+- `RFM_analysis.ipynb`:ランダムフォレストの構築とPD, ICEの図示  
+- `DNN_model.ipynb`:深層学習による回帰モデル, 分類モデルの構築
   
 ##### `/models` ディレクトリ内にある各 `.h5` ファイルについて説明
-- `red_wine_cassify_model.h5`: 赤ワインの分類予測モデル
-- `red_wine_regression_model.h5`: 赤ワインの回帰予測モデル
-- `white_wine_classify_model.h5`: 白ワインの分類予測モデル
-- `white_wine_regression_model.h5`: 白ワインの回帰予測モデル
+- `red_wine_cassify_model.h5`:赤ワインの分類予測モデル
+- `red_wine_regression_model.h5`:赤ワインの回帰予測モデル
+- `white_wine_classify_model.h5`:白ワインの分類予測モデル
+- `white_wine_regression_model.h5`:白ワインの回帰予測モデル
   
 ## データセット
 
