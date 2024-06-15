@@ -12,7 +12,7 @@
 - `WineQuality-WhiteWine.csv`: 白ワインのサンプル数　4898
 
 ## プログラムの説明
-- `images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一時分析  
+- `images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一次分析  
 - `model`:　`DNN_model.ipynb`で作成した予測モデル  
 - `result`: 各プログラムの結果  
 - `LRM_wine.ipynb`: 線形回帰モデルの係数比較, PFI, PD, ICEも含む  
