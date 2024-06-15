@@ -11,7 +11,7 @@
 - `WineQuality-RedWine.csv`: 赤ワインのサンプル数　1599
 - `WineQuality-WhiteWine.csv`: 白ワインのサンプル数　4898
 
-###　データセットのライセンス
+### データセットのライセンス
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
