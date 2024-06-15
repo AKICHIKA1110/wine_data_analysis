@@ -4,17 +4,6 @@
 
 このリポジトリには、赤ワインと白ワインの品質データセットに関する分析とグラフ化を行っています。本プロジェクトの目標は、機械学習を用いた予測モデルからワインの品質に影響を与える要因を理解することです。
 
-## データセット
-
-このプロジェクトで使用されているデータセットは、[UCI機械学習リポジトリ](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)から取得したものです。データには、赤ワインと白ワインのさまざまな理化学的特性とその品質評価が含まれています。
-
-- `WineQuality-RedWine.csv`: 赤ワインのサンプル数　1599
-- `WineQuality-WhiteWine.csv`: 白ワインのサンプル数　4898
-
-### データセットのライセンス
-This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
-
 ### プログラムの説明
 - `images`:　`WineQuality-RedWine.csv`と`WineQuality-WhiteWine.csv`の一次分析  
 - `model`:　`DNN_model.ipynb`で作成した予測モデル  
@@ -29,6 +18,19 @@ This allows for the sharing and adaptation of the datasets for any purpose, prov
 - `red_wine_regression_model.h5`: 赤ワインの回帰予測モデル
 - `white_wine_classify_model.h5`: 白ワインの分類予測モデル
 - `white_wine_regression_model.h5`: 白ワインの回帰予測モデル
+  
+## データセット
+
+このプロジェクトで使用されているデータセットは、[UCI機械学習リポジトリ](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)から取得したものです。データには、赤ワインと白ワインのさまざまな理化学的特性とその品質評価が含まれています。
+
+- `WineQuality-RedWine.csv`: 赤ワインのサンプル数　1599
+- `WineQuality-WhiteWine.csv`: 白ワインのサンプル数　4898
+
+### データセットのライセンス
+This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
+
+
 
 ### 特徴量の説明
 
