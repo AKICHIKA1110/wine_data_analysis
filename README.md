@@ -20,7 +20,7 @@
 - `RFM_analysis.ipynb`:　ランダムフォレストの構築とPD, ICEの図示  
 - `DNN_model.ipynb`:　深層学習による回帰モデル, 分類モデルの構築
   
-### `/models` ディレクトリ内にある各 `.h5` ファイルについて説明
+##### `/models` ディレクトリ内にある各 `.h5` ファイルについて説明
 - `red_wine_cassify_model.h5`: 赤ワインの分類予測モデル
 - `red_wine_regression_model.h5`: 赤ワインの回帰予測モデル
 - `white_wine_classify_model.h5`: 白ワインの分類予測モデル
